@@ -1,0 +1,70 @@
+/* styles.css */
+
+body {
+    margin: 2rem;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #ff5f6d, #ffc371); /* Gradient from pink to yellow */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    font-size: 1rem;
+}
+
+button {
+    background-color: #fff;
+    color: #d23369;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    margin: 1.2rem;
+}
+
+button:hover {
+    background-color: #d23369;
+    color: #fff;
+}
+
+ul.listcontainer {
+    list-style-type: none;
+    /* padding: 1rem; */
+    margin: 20px 0;
+    width: 300px;
+    color: black;
+    font-weight: bolder;
+    font-size: x-large;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+ul.listcontainer li {
+    padding: 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+ul.listcontainer li:last-child {
+    border-bottom: none;
+}
+
+form {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 1.2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
